@@ -1,0 +1,9 @@
+apply plugin: "java"
+
+task runapp << {
+    String cmd = "java -cp build/classes/main:src/main/resources ph.mmhsvictoria.aseqmobile.ASeqMobile";
+
+    cmd.execute()
+
+}
+
